@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   height: 100dvh;
+background-color: azure;
+    
+}
+
+#calculator{
+  text-align: center;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    border:  2px;
+    border-radius: 12px;
+    background-color: rgba(25, 24, 24, 0.714);
+}
+
+
+
+ input{
+    font-size: 32px;
+    font-weight: bold;
+    color: #fffbfb;
+    width:350px;
+    height: 50px;
+    padding: 12px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: rgba(45, 42, 42, 0.74);
+}
+
+#keys{
+    padding: 10px;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+button{
+    font-size: large;
+    font-weight: bold;
+    margin: 6px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+   color: #4c4a4a;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: rgb(207, 207, 201);
+}
+
+.operatorBtn{
+    background-color: rgb(240, 240, 149);
+}
+
+.operatorBtn:hover{
+    background-color: rgb(230, 230, 108);
+
+}
+
+.operatorBtn:active{
+    background-color: rgb(246, 246, 174);
+
+}
+
+.acBtn{
+    background-color: rgb(179, 91, 91);
+}
+
+.acBtn:hover{
+    background-color: rgb(183, 74, 74);
+
+}
+
+.acBtn:active{
+    background-color: rgb(187, 120, 120);
+
+}
+
+.dBtn{
+background-color: rgb(170, 233, 235);
+}
+
+.dBtn:hover{
+    background-color: rgb(134, 224, 227);
+
+}
+
+.dBtn:active{
+    background-color: rgb(173, 234, 236);
+
+}
+
+.ansBtn{
+    
+    background-color: rgb(225, 161, 76);
+}
+
+.ansBtn:active{
+    background-color: rgb(224, 187, 139);
+
+}
